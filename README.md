@@ -22,13 +22,14 @@ You can use :
 ```python
 python train.py --labeled_ratio 0.05 --seed 41 --teacher_num 0
 python train.py --labeled_ratio 0.05 --seed 42 --teacher_num 1
-```python
+```
 
 to get teacher1 and teacher2.
 
 Next, using get_teacher_features.py to get feature.pkl:
-
+```python
 python get_teacher_features.py --labeled_ratio 0.05 --model_num 2
+```
 
 Finally, you can train a student model by:
 
