@@ -1,5 +1,5 @@
 # MTD4SemiRE
-Wanli Li and Tieyun Qian: "[From Consensus to Disagreement: Multi-Teacher Distillation for Semi-Supervised Relation Extraction](https://ieeexplore.ieee.org/document/9534434)"
+Wanli Li and Tieyun Qian: "[From Consensus to Disagreement: Multi-Teacher Distillation for Semi-Supervised Relation Extraction](https://arxiv.org/abs/2112.01048)"
 ## 1. Requirements
  To reproduce the reported results accurately, please install the specific version of each package.
 * python 3.7.10
