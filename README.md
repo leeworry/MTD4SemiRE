@@ -19,10 +19,10 @@ We provide our partitioned data included in dataset/semeval path for reproducing
 
 
 You can use :
-
+```python
 python train.py --labeled_ratio 0.05 --seed 41 --teacher_num 0
-
 python train.py --labeled_ratio 0.05 --seed 42 --teacher_num 1
+```python
 
 to get teacher1 and teacher2.
 
