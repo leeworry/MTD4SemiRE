@@ -26,6 +26,15 @@ python train.py --labeled_ratio 0.05 --seed 42 --teacher_num 1
 
 to get teacher1 and teacher2.
 
+Next, using get_teacher_features.py to get feature.pkl:
+
+python get_teacher_features.py --labeled_ratio 0.05 --model_num 2
+
+Finally, you can train a student model by:
+
+python train.py --labeled_ratio 0.05 --is_student
+
+If you have any question, please let me know.
 
 ## Code Overview
 The main entry for all models is in `train.py`. We provide the "self-trainng + MTD" version.
