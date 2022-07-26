@@ -32,9 +32,9 @@ python get_teacher_features.py --labeled_ratio 0.05 --model_num 2
 ```
 
 Finally, you can train a student model by:
-
+```python
 python train.py --labeled_ratio 0.05 --is_student
-
+```
 If you have any question, please let me know.
 
 ## Code Overview
