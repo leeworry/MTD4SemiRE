@@ -7,6 +7,7 @@ Wanli Li and Tieyun Qian: "[From Consensus to Disagreement: Multi-Teacher Distil
 * numpy 1.19.2
 * transformers 4.7.0
 * apex 0.1
+
 All data should be put into `dataset/$data_name` folder in a similar format as `dataset/sample`, with a naming convention such that (1) `train-$ratio.json` indicates that certain percentage of training data are used. (2) `raw-$ratio.json` is a part of original training data, in which we assume the labels are unknown to model.
 
 To replicate the experiments, first prepare the required dataset as below:
